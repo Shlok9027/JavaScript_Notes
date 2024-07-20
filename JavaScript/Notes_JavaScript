@@ -1,0 +1,624 @@
+
+ JAVASCRIPT })-->>
+
+                JavaScript is highly Dynamically language.
+
+
+a++ = first its show the previous number but after  next line  it  show incremented number.
+a-- = first its show the previous number but after next line it show  the decremented number.
+--a = it is simply minus the number in current  line also in next line show the decremented number.
+==a = it is also same its first add the number and show into current line also in next line show incremented value.   
+
+
+To Print )-->>
+
+console.log("SHLOK KUMAR");
+
+console.log("I am learning JavaScript");
+
+Variable )-->>
+              Variable  are container for Data.
+
+
+Variable Rule )-->>
+                   *  Variable names are case sensitive;  "a" & "A" is Different.
+                   *  Only letter , digit, underscore(_) or $ is allowed(not even  space).
+                   *  Only  letter , underscore (_) or $ should be 1st character.
+                   *  Reserved words canot be variable names.
+
+
+Reserved Word javaScript )-->>
+                             1. break
+                             2. case
+                             3. catch
+                             4. class
+                             5. 
+
+
+in JavaSript only camel case are uses-
+                              fullName } 1st word 1st letter must be small &  2nd word 1st letter must be capital.
+
+let , const & var )-->>
+
+       //var :Variable must pre-declared & updated . A global scope variable.
+              currently var is usable in Javascript.
+
+       //let :Variable cannot be re-declared but can be updated . A block scope variable.
+               Ex- let fullName =  "Shlok kumar";
+                    let age = 21;
+                      let price  =  111; 
+
+       //const :Variable cannot be re-declared or updated . A block scope variable.
+                 Its mean we locked or conts the value . it can't be after declaring.
+
+         
+Note )-->> let and  const are mostly used to the declared  the variable.
+
+
+
+#Data Type in JavaScript)-->>
+                            
+
+
+              ** Two types yp Data Type  in JS-
+                                               1.Preemtive
+                                               2.Non-Preemptive 
+                      
+                1.preemtive)-->>
+                                    1. Number-
+                                       let age = 21;
+                                       let price = 999.99;
+                                    2. String-
+                                       let fullName = "Shlok kumar";
+                                    3. Boolean-
+                                       isFollow  =  true;
+                                    4. Undefined- 
+                                       let x;
+                                    5. Null- 
+                                       let x = null;
+                                    6. BigInt- 
+                                       let x = BigInt("12345");
+                                    7. Symbol-
+                                       let y = Symbol("hello");
+ 
+              2Non-Preemtive)-->>
+ 
+                                     1.Objects-It is a collection of values.
+                                     code- const student =  {
+                                           fullName : "SHLOK KUMAR",
+                                           age : 21,
+                                           cgpa : 9.5,
+                                           isPass : true 
+                                           };
+            
+ 
+                                      
+              Objects are upto two subtypes- 
+                                              a.Arrays, b.functions
+
+
+
+
+
+Lecture }-->> 2
+
+ 
+operator and conditional statements)-->>
+                
+                                     
+Operator in JS- 1. Arithmetic operator-->>  +, - , * , /.
+                                           modulus- remainder values 
+                                           exponentiation- to give as power
+                                           increment- a++(post increment), ++a(pre increment)
+                                           decrement- a--(post decrement), --a(pre decrement)
+                           {
+a++ = first its show the previous number but after  next line  it  show incremented number.
+a-- = first its show the previous number but after next line it show  the decremented number.
+--a = it is simply minus the number in current  line also in next line,  show the decremented number.
+++a = it is also same its first add the number and show into current line also in next line , show incremented value.   
+         
+                2. Assignment operator-->>  =   - its mean a = b
+                                            +=  - it is the compact way to represent a=a+1  of a+=1.
+                                            -=  - it is the compact way to represent a=a+1  of a-=1.              
+                                            *=  - it is the compact way to represent a=a*1  of a*=1.             
+                                            %=  - it is the compact way to represent a=a%1  of a%=1. 
+                                            **= - is is the compact way to represent a=a**1 of a**=1.
+                3. Comparison Operator -->> let a = 5;
+                                            let b = 5;
+                                            console.log(" 5 == 5 ", 5 == 5 );
+                                            console.log( " 5 != 5", 5 != 5 );
+
+                                             5 == 5  true
+                                            5 != 5 false
+
+                                            
+                4.  logical Operator -->>  1. Logical AND    { && }
+                                           2. Logical OR     { || }
+                                           3. Logical NOT    { !  }
+
+
+
+1|   T   T   =  T            2|   T   T  =   T                3|   T   T   =    T
+     T   F   =  F                 T   F  =   T                     T   F   =    F
+     F   T   =  F                 F   T  =   T                     F   T   =    F
+     F   F   =  F                 F   F  =   F                     F   F   =    T
+
+                 5. conditional Operator -->>  it is to implement some conditions in code.
+                                              
+                                                
+                                          if Statements)-->> the if statement can us multiple times..
+                                                               let color
+                                                               if(mode === "dark-mode") {
+                                                                    color = "black";
+                                                                 } 
+
+
+                                          if else Statement)-->>let color;
+                                                                if(mode === "dark-mode) {
+                                                                      color = "black";
+                                                               } else {
+                                                                    color = "white";
+                                                                 }
+                                                                 console.log(color);																																																											          6.Ternary Operator -->> condition ?	true output : false output	
+
+
+
+
+																										
+
+
+
+*alert - is used to create popup.
+ ex- alert(" alert ")
+
+*prompt - is similar to alert but it can access some input from the user.
+
+let name = prompt("Hello");
+console.log(name );
+
+                   
+
+Lecture}-->> 3
+
+
+Loops in JavaScript)-->>
+
+Loops are used to execute a piese of  code again and again.
+
+
+Types -->>
+
+1.for loop-->>
+
+for(let i = 0; i <= 11; i++){
+    console.log( "SHLOK KUMAR");
+}
+
+
+2.Infinite loop-->>
+
+A loop that never end.
+But it is not applicable in coding due to space consumption.
+
+3.while loop-->>
+
+while(condition){
+              //........
+            }
+4.do while loop-->>
+ 
+do {
+   //.......
+   }while(conditions);
+
+5. for-of loop-->>
+
+ for(let i of str) {
+      console.log("i =" , i)
+ }
+
+6. for-in loop-->>
+
+
+
+some question}-->>
+
+// Q1. print all even number from 0 to 111
+
+
+for (let num = 0; num <= 111; num++) {
+    if (num % 2 === 0) {
+        console.log(num);
+    }
+}
+
+
+
+String in JavaScript}-->>
+
+
+String is a squence of characters used to represent text.
+
+
+
+create string-->>
+
+let str = "shlok kumar";
+
+
+String Length-->>
+
+str.length
+
+String Indices-->>
+
+str[0],str[1],str[2]
+
+console.log(str[0]);
+
+
+
+Template Literal in javaScript}-->>  A way to have embedded expression in strings.
+
+                  'this is a template literal'
+
+Note->> this an special type of string which use to print the string.
+
+
+
+String Interpulation -->>To create String by doing substitution of placeholders
+
+                          `string text $(expression) string text`
+
+
+
+Note->> 1.\n can be use to go next line in a single console.log( "hello/n....).
+        2.\t can be use to generate the tab space . 
+
+lenght of esc char is always 1 (\n,\t).
+
+
+String Method is JavaScript}-->>
+
+these are built- in- function  to manipulate  a string .
+
+
+1.str.toUpperCase()-->>
+2.str.toLowerCase()-->>
+3.str.trim()-->>it is used to remove the whitespaces
+4.str.slice(start,end?)-->>returns part of string
+5.str1.concat(str2)-->>join str2 with str1
+6.str.replace(searchVal, newVal)-->>
+7str.charAt(idx)-->>
+
+
+
+
+
+
+Lecture}-->>4
+
+Array in java Script)-->>
+
+Array is  just a collection of item.
+Ex-  student contain their name ,class , branch, reg no. etc.
+
+array indices -->>   arr[0],arr[1],arr[2]
+
+
+
+to change the array value-->>write arr[..] = ...;
+
+Note)-->> In javaScript [array] are mutable means it can be change in particular index .
+          but on the same place [string]  are immutable its directly mean it can't  be change in particular index.
+
+
+Looping over an array)-->>
+
+let subject = ["OE", "SE", "CD", "CC", "ADC"];
+ for (let i=0; i<subject.length; i++) {
+     console.log(subject[i ]); 
+}
+
+
+Array Methods)-->>
+
+1.push() : add  to end-->
+using this we can add something at the in of array
+ex- name.push()
+
+2.pop()  : delete from end & return-->
+using this can delete something at the end of array
+ex-name.pop()
+
+
+3.toString() : converts array to string-->
+
+using this we can convert the array into the form of string
+ex- name.toString()
+
+
+4.cancat() : join multiply array & return result-->
+ex- name1.concat(name2, ....)
+
+
+5.unshift() : add to start--> it is also use as push method but in starting index-->
+ex- name.unshift("..")
+
+
+6.shift() : delete from start & return--> it is also use as pop but in starting index  method
+ex- name.shift("....")
+
+
+7.slice() : return a piece of the array-->
+ex- console.log(name.slice(idx1, idx3)
+
+
+8.splice() : change original array (add , remove, replace)-->
+splice(startIdx, deleteIdx, newE(1....))
+ex- 
+
+
+
+Lecture}-->> 5
+
+Function)-->>
+
+It is a block of code that is used to perform a specfic task ,It  can be involved whenever needed.
+
+
+Function -->>                                                                   Function call -->>
+
+function functionName {                                                          functionName();  
+       //do some work                                              
+   }
+
+function functionName(parameter1 parameter2..) => {
+     /do some work    
+   }
+
+
+
+||function can solve the redundancy(repeatation).
+
+||function parameter ->like locaal variable of function ->block scope.
+
+
+Arrow Function )-->>compact way to writing a function.
+
+const functionName = (parameter 1, parameter 2...) => {
+            // do some work
+        }
+
+||  =>  -->  it is a arrow function.
+|| Arrow function are part of modern javascript.
+
+
+
+forEach Loop)-->> 
+it is the method.
+
+arr.forEach(callBackFunction)
+
+||CallbackFunction : here's it is a function to execute for each element in the array.
+
+|||| A callback is function passed as an argument to another function.
+
+
+
+|| Higher Order Function (HOF) -->> It is uses the function as parameter or it will return as a function.
+
+
+Some More Method -->
+
+Array Method )-->>
+
+1. Map-->>
+
+It  is similar to forEach method but the differ is Map is return the New Array.
+ 
+2. Filter-->>
+
+Creayes a new array of element that gives true for a condition / filter.
+
+3. reduce Method-->>
+
+perform some operation & reduce  the array to a single value . It returns that single value.
+
+
+
+Lecture }-->> 6
+
+DOM}-->>
+document Object Model
+
+|| To Connect CSS with HTML -->>  <link rel="stylesheet" href="style.css">
+|| To Connect JS  with HTML -->>  <script src="script.js></script>
+
+
+Reason why we us separate file for js & css-->>
+1. readability
+2. modular
+3. browser caching
+
+Window Object )-->>
+
+The window object represent an open window in a browser . it is browser's object (not javascript's) & is automatically created by a browser.
+
+It is a glober object with lots of properties methods .
+
+What is DOM ?
+
+When a Web page is loaded , the browser cretes a Document object Model (DOM) of the page.
+
+        
+||It is help to apply the dynamic changes.||
+
+
+DOM Manipulation )-->>
+
+1. Selecting with id -->>
+ 
+document.getElementById("myId")
+
+2. Selecting with class -->> It returns HTML collections.	
+
+document.getElementbyClassName("myClass")
+
+3. Selecting by tag -->> It is used to select paragraph.
+
+document.getElementByTagName("p")
+
+||
+
+4. Query Selector -->>
+
+||document.query.Selector("myId / my class / tag")    {returns first element}
+
+||document.query.SelectorAll("myId / my class / tag")    {returns a NodeList}
+
+
+Properties )-->>
+
+1. tagName  :  returns tag for elements nodes.
+
+2. innerText  :  returns the text content of the element and all its children.
+
+3. innerHTML  :  returns the plain text or HTML contents in the element.
+
+4. textContent  :  returns textual content even for hidden elements.
+
+
+
+lecture}-->> 7
+
+
+Attributes )-->>
+
+||  getattribute( attr )  // to get the attribute value
+
+||  setAttribute( attr , value )  //to set the attributeval th
+
+
+Style )-->>
+
+|| node.style
+
+
+
+insert elements )-->>
+
+let el = document.createElement("div")
+
+||1. node.append(el)
+ 
+adds at the end of node(inside)
+
+||2. node.prepemd(el)
+
+adds at the start of node(inside)
+
+||3. node.before()el
+ 
+adds before the node(outside)
+
+||4. node.after(el)
+
+adds after the node(outside)
+
+
+delete element )-->>
+
+||  node.remove()
+
+removes the node
+
+
+
+lecture }-->> 8
+
+Events }-->>
+
+
+The change in the state of an object is known as Event.
+
+
+Events are fired to notify code of "interesting changes " that may affect code execution.
+
+
+
+|| Mouse events (click , double click etc ).
+|| keyboard events (keypress, keyup, keydown. 
+|| from event (submit etc.).
+|| print event & many more].
+
+
+Event Handling in JavaScript)-->>
+
+
+node.event = () => {
+//handle here
+ }
+
+
+Event Object)-->>
+
+It is a special object that has details about the event.
+
+All event handler have  across to the Event Object's properties and methods.
+
+    node.event - (e) => {
+//handle here
+}
+
+e.target, e.type, e.clientX, e.clientY
+
+
+Event Listner )-->>
+
+node.addEventListener(event, callback)
+
+node.removeEventListener(event, callback)
+
+||Note-->  the callback reference should be same to remove.
+
+
+
+
+Lecture }-->>9
+
+
+Tic Tac toe}-->>
+
+
+Lecture }-->>10
+
+
+Rock Paper Scissors }-->>
+
+
+
+Lecture}-->> 11
+
+
+
+Classes & Objects}-->>
+
+
+Prototype in JS)-->>
+
+A javascript object is an entity having state and behavior (properties and methods).
+
+JS objects have a special property called prototype.
+
+We can set prototype using _ _ proto_ _
+
+
+
+||Note -->> If object  & prototype have same method, objects's method will be used.
+
+
+|| _ _ proto _ _ )=> it is used to set a prototype.
+
+
+Classes in object)-->>
