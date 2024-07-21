@@ -4,10 +4,10 @@
                 JavaScript is highly Dynamically language.
 
 
-a++ = first its show the previous number but after  next line  it  show incremented number.
-a-- = first its show the previous number but after next line it show  the decremented number.
---a = it is simply minus the number in current  line also in next line show the decremented number.
-==a = it is also same its first add the number and show into current line also in next line show incremented value.   
+a++ = first its show the original number but after next line it show the incremented number.
+a-- = first its show the original number but after next line it show the decremented number.
+--a = its subtract the number in current line also in next line show the decremented number.
+++a = its add the number and show into current line also in next line show incremented value.   
 
 
 To Print )-->>
